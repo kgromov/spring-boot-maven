@@ -1,9 +1,7 @@
-package guru.springframework.repositories;
+package com.spring.templates.repositories;
 
-import guru.springframework.domain.Recipe;
+import com.spring.templates.domain.Recipe;
 import org.springframework.data.repository.CrudRepository;
-
-import java.util.concurrent.TimeUnit;
 
 /**
  * Created by jt on 6/13/17.

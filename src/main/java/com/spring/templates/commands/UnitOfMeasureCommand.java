@@ -1,10 +1,8 @@
-package guru.springframework.commands;
+package com.spring.templates.commands;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.math.BigDecimal;
 
 /**
  * Created by jt on 6/21/17.
@@ -12,10 +10,7 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 @NoArgsConstructor
-public class IngredientCommand {
+public class UnitOfMeasureCommand {
     private Long id;
-    private Long recipeId;
     private String description;
-    private BigDecimal amount;
-    private UnitOfMeasureCommand uom;
 }

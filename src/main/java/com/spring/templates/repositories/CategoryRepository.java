@@ -1,10 +1,9 @@
-package guru.springframework.repositories;
+package com.spring.templates.repositories;
 
-import guru.springframework.domain.Category;
+import com.spring.templates.domain.Category;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;
-import java.util.concurrent.TimeUnit;
 
 /**
  * Created by jt on 6/13/17.

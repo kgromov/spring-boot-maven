@@ -1,4 +1,4 @@
-package guru.springframework.domain;
+package com.spring.templates.domain;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
